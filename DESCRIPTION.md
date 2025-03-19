@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>wd-kitfox</id>
-    <version>1.0.0.8</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-wd-kitfox/tree/v1.0.0.8</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>Western Digital Kitfox</title>
-    <authors>Western Digital</authors>
-    <projectUrl>https://support-en.wd.com/app/answers/detailweb/a_id/51537</projectUrl>
-    <iconUrl>https://cdn.jsdelivr.net/gh/brogers5/chocolatey-package-wd-kitfox@b2daf31b11e8461e78022b11f64daa95f35cbd40/wd-kitfox.png</iconUrl>
-    <copyright>Copyright (C) 2025 Western Digital. All rights reserved.</copyright>
-    <licenseUrl>https://downloads.wdc.com/test/wdc-eula-2019-10-en.pdf</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <!--<projectSourceUrl>Project is closed source</projectSourceUrl>-->
-    <!--<docsUrl>No Kitfox-specific support URL is available, just a small collection of KB articles</docsUrl>-->
-    <mailingListUrl>https://community.wd.com/c/wd-software-mobile-apps/wdkitfox/328</mailingListUrl>
-    <!--<bugTrackerUrl>No public-facing issue tracker is available</bugTrackerUrl>-->
-    <tags>wd-kitfox wd kitfox western digital hard-drive hdd sata freeware</tags>
-    <summary>Western Digital SATA HDD management software</summary>
-    <description><![CDATA[## Western Digital Kitfox
+## Western Digital Kitfox
 
 Western Digital Kitfox is a desktop application for managing Western Digital SATA HDDs.
 
@@ -54,13 +33,3 @@ For future upgrade operations, consider opting into Chocolatey's `useRememberedA
 ```shell
 choco feature enable --name="'useRememberedArgumentsForUpgrades'"
 ```
-]]></description>
-    <releaseNotes>https://support-en.wd.com/app/answers/detailweb/a_id/52331/~/western-digital-kitfox-release-notes</releaseNotes>
-    <dependencies>
-      <dependency id="vcredist140" version="14.42.34433" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
